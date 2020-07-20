@@ -1,0 +1,2 @@
+# Recursive-Descent-Parser
+This interactive script of python is based on the following version of the grammar:  0     &lt;statement> → table | show &lt;exp>{,&lt;exp>} | &lt;id> = &lt;exp> 1     &lt;exp> → &lt;term>{+&lt;term> | -&lt;term>} 2     &lt;term> → &lt;factor>{*&lt;factor> | /&lt;factor>} 3     &lt;factor> → (&lt;exp>) | pi | - | &lt;func>(&lt;exp>) | &lt;atomic> | &lt;extra>(&lt;exp>) 4     &lt;func> → sin | cos | tan | sqrt  5     &lt;extra> → fact | log | floor | ceil | trunc
